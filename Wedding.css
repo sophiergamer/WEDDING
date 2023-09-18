@@ -1,0 +1,33 @@
+body {overflow-y: scroll; scrollbar-color:'white'; scroll-behavior: 'smooth'; }
+#subTitle { color: #262626;
+    overflow: hidden;   
+    border-right: .10em solid #FF8D8D;
+    white-space: nowrap;   
+    margin: 0 auto;   
+    letter-spacing: .4rem;   
+    text-align: center;
+    animation: demo-typewriter 3s steps(30, end), demo-cursor 1s step-end infinite;
+    }
+#fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 'zindex-fixed';
+    }
+  #progress-container {
+    width: 100%;
+    background-color: transparent;
+    height: 5px;
+    display: block;
+    }
+  #progress-bar {
+    background-color: #008B8B;
+    width: 0%;
+    display: block;
+    height: inherit;
+    }
+#title {
+    text-align: center;    
+    }       
+
