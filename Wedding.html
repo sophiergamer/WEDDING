@@ -1,17 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
  <head>
-    <meta lang="en">
-    <script defer src="./wedding.js"></script>
-    <link rel="stylesheet" href="wedding.css">
+    <script defer src="weddingMain.js"></script>
+    <link rel="stylesheet" href="Wedding.css">
 </head>
 <body>
-    <p id='background' style="background-image: url('websitephoto.jpg')";  > </p>
-    <h1 id-="title">Sophie and Joey are getting married!</h1>
-    <h6 id="subTitle" >we don't know where or when, but it is happening!</h6>
-    <div class="progress-container fixed-top">
-        <span class="progress-bar"></span>
+
+    <section id="top">
+    <h1 id="pageTitle">Sophie and Joey are getting married!</h1>
+      <h6 id="subTitle">we don't know where or when, but it is happening</h6>
+    </section>
+
+    <section id="middle">
+      <div id='gallery'>
+
       </div>
+    </section>
+
+    <section id="bottom">
+      <h2 id="bottomTitle">share a story or send a message</h2>
+      <div id="messages">
+
+      </div>
+      <form autocomplete=off id="messageForm" style=" gap: 30px;">
+        <label style="gap: 10px; width: 140px; display: inline-block; justify-content: space-evenly;">
+          your name <input type='text' name="name"  />
+        </label>
+        <label style="gap: 10px; width: 140px; display: inline-block; justify-content: space-evenly;">
+          story or message <input type="text" name="message" />
+        </label>
+        <label for='search' style="gap: 10px; width: 140px; display: inline-block; justify-content: space-evenly;">
+          song for dancing! <input type='search' name="song" data-search/>
+        </label>
+        <input id= "button" type="submit" value="send it" />
+      </form>
+
+      <p id="songList">click <a href="songList.html">here</a> to see which songs have been added so far </p>
+    </section>
 </body>
 
 </html>

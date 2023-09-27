@@ -1,0 +1,162 @@
+{
+  "Messages": [
+    {
+      "name": "Sophie Gamer",
+      "message": "i am excited",
+      "song": "yeah by usher",
+      "id": 1
+    },
+    {
+      "name": "Louie",
+      "message": "my parents are the best",
+      "song": "who let the dogs out",
+      "id": 2
+    },
+    {
+      "name": "Elmo",
+      "message": "uh oh!",
+      "song": "im a little teapot",
+      "id": 3
+    },
+    {
+      "name": "tim",
+      "message": "hi",
+      "song": "harry potter theme",
+      "id": 4
+    }
+  ],
+  "PhotoGallery": [
+     {
+      "title": "Chimney Cake",
+      "image": "https://i.imgur.com/eHbvZWC.jpg",
+      "story": "We took an oddly-timed trip to central Europe in March of 2020, which turned out to be beautiful. Here we are with a chimney cake made of sweet dough and cinnamon sugar.",
+      "id":1
+    },
+    {
+      "title": "LOL",
+      "image": "https://i.imgur.com/57m0ULP.jpg",
+      "story": "This photo is from the Scholars Thanksgiving of 2013. Joey pretended to propose even though we insisted we were 'just friends.'",
+      "id":2
+    },
+   
+    {
+      "title": "Louie Day",
+      "image": "https://i.imgur.com/5mkGGzL.jpg",
+      "story": "We took Louie home the day before Thanksgiving of 2020. His joining our little family was easily the highlight of this year! He still hates looking directly at the camera.",
+      "id":3
+    },
+    {
+      "title": "Buttermilk Falls",
+      "image": "https://i.imgur.com/Awceiug.jpg",
+      "story": "We were so small! This is from a camping trip we took with friends to Ithaca. Sophie is probably winning.",
+      "id":4
+    },
+    {
+      "title": "The Vampire Sopranos",
+      "image": "https://i.imgur.com/MeFN4Jg.jpg",
+      "story": "We have a complicated relationship with garlic! Joey is Carmela and Sophie is Tony.",
+      "id": 5
+    },
+    
+    {
+      "title": "Cyclones",
+      "image": "https://i.imgur.com/uVTfqFb.jpg",
+      "story": "We are fans of the Brooklyn Cyclones! This photo is from one of their championship games, the first since Sept 11.They have an enthusiastic following and are committed to representing Brooklyn's personality.",
+      "id":6
+      
+    },
+    {
+      "title": "Birthday Princess",
+      "image": "https://i.imgur.com/eA8ppoC.jpg",
+      "story": "Joey makes Sophie feel like a princess every day! For this birthday he took her to various fabric stores around the city, and Sophie made a dress from the spoils of their trip.",
+      "id": 7
+    },
+    {
+      "title": "Transformers",
+      "image": "https://i.imgur.com/ZoyuHwU.jpg",
+      "story": "This is the 'before' photo of the basement room we turned into Joey's office. It took many months and significant help from Sophie's dad, but we learned a ton. Next, our own place (hopefully)!",
+      "id":8
+    },
+      {
+      "title": "Partnered!",
+      "image": "https://i.imgur.com/dk0wDBk.jpg",
+      "story": "We finished out a rough 2020 on a sweet note and were legally partnered on December 10th. Sophie's dress is self-made. Photos were taken on the Brooklyn Bridge by our dear friend Sinan.",
+      "id":9
+    },
+    {
+      "title": "Oyster Day",
+      "image": "https://i.imgur.com/GtKohFl.jpg",
+      "story": "For Sophie's birthday in 2020, Joey booked a tour to fish oysters. We ate them raw on the boat. Joey is always trying new things!",
+      "id":10
+    },
+  
+ 
+    {
+      "title": "Mermaids",
+      "image": "https://i.imgur.com/iXRB9m3.jpg",
+      "story": "Cape Cod is one of our favorite places to relax, thrift, and be mermaids!",
+      "id":11
+    },
+    {
+      "title": "Peru",
+      "image": "https://i.imgur.com/uVy5oRX.jpg",
+      "story": "On this trip we visited a beautiful part of the Peruvian salt flats and saw a volcano! Our guide told us a man from a nearby town ran to the top of that volcano in three hours. Ouch.",
+      "id":12
+    },
+    {
+      "title": "Bikini Bottom",
+      "image": "https://i.imgur.com/pYxg1ma.jpg",
+      "story": "Sophie sews Halloween costumes and luckily has some excellent models. Here we are as Spongebob characters.",
+      "id":13
+    },
+    {
+      "title": "Bearcats 4 Life",
+      "image": "https://i.imgur.com/hHpT0ya.jpg",
+      "story": "We met at Binghamton University in 2012, and thank goodness we did! We like to take time to be grateful for the small decisions that led us to one another.",
+      "id": 14
+    },
+    {
+      
+      "title": "Sunset",
+      "image": "https://i.imgur.com/kHweAGM.jpg",
+      "story": "We absolutely love our park! It is our refuge, hangout, routine, jungle gym, and more.",
+      "id":15
+    },
+    {
+      "title": "Let's Roll",
+      "image": "https://i.imgur.com/6SGmqTB.jpg",
+      "story": "Brooklyn Bridge Park has a roller rink on the water that has open skate nights! Joey is steadily improving and Sophie makes great use of the rink's rolling walkers. ",
+      "id":16
+    },
+    {
+      "title": "Home",
+      "image": "https://i.imgur.com/eL8y8oP.jpg",
+      "story": "We moved into Joey's grandmother's house in 2016. Our apartment is overflowing with Sophie's craft supplies, Joey's book collection, and all of our kitchen equipment; just how we like it!",
+      "id":17
+    },
+    {
+    "title": "Bike Angels",
+    "image": "https://i.imgur.com/4XekWCO.jpg",
+    "story": "Joey learned how to bike in 2020, and now he is tearing up the streets! We like to see new neighborhoods, visit historic sites, and feel the breeze of the open road.",
+      "id":18
+    },
+    {
+      "title": "Fair-Well",
+      "image": "https://i.imgur.com/fNz0zKM.jpg",
+      "story": "Joey is a Renaissance man, and as such wanted to spend a birthday at the Renaissance Fair! We dressed for the occaision.",
+      "id":19
+    },
+    {
+      "title": "Party Animalz",
+      "image": "https://i.imgur.com/RD6VreY.jpg",
+      "story": "We will be in the middle of the dance floor, or we will create our own dance floor. Invite us to your parties.",
+      "id":20  
+    },
+    {
+      "title": "Old Growth",
+      "image": "https://i.imgur.com/Lm8LJkN.jpg",
+      "story": "Visiting the Pacific Northwest Forests felt like going back in time. It also felt rainy.",
+      "id":21
+    }
+  ]
+}
