@@ -97,8 +97,27 @@ body {background-color: aliceblue;
   margin-left: 20px;
   line-height: 20px;
 }
+#songForm{
+  font-family: 'baskerville';
+  margin-left: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+
 #autocomplete{
-  position: relative
+  position: relative;
+  display: inline-block;
+
+}
+#songListOptions{
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 0;
 }
 
 #messages{
@@ -110,12 +129,19 @@ input {border: none;
   margin-bottom: 20px;
   }
 
-#button{
+#mButton{
   font-family: 'baskerville';
   background-color: transparent;
   border: 1px solid black;
   display: block;
-  margin-left: 46%;
+  margin-left: 47%;
+}
+#sButton{
+  font-family: 'baskerville';
+  background-color: transparent;
+  border: 1px solid black;
+  display: block;
+  margin-left: 47%;
 }
 
 #songList{

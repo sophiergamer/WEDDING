@@ -6,8 +6,8 @@ function addSong(entry){
    songList.append(item)
     }
 
-fetch('http://localhost:3000/Messages').then(response=>response.json())
-    .then(songs=>songs.forEach(song=>addSong(song)))
+fetch('http://localhost:3000/Songs').then(response=>response.json())
+    .then(songs=>songs.forEach(suggestion=>{addSong(suggestion)}))
 
 /*const alphabet = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 

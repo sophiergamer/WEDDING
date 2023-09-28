@@ -1,5 +1,6 @@
 const messageForm = document.getElementById('messageForm')
 const messageList = document.getElementById('messages')
+const songForm= document.getElementById('songForm')
 const gallery = document.getElementById('gallery')
 
 fetch('http://localhost:3000/PhotoGallery').then(response=> response.json())
@@ -65,26 +66,73 @@ messageForm.addEventListener('submit', (event)=>{
         body: JSON.stringify({
             name: event.target.name.value,
             message: event.target.message.value,
-            song: event.target.song.value
         })
     }).then(response=> response.json())
     .then(newEntry=> {addMessage(newEntry)})
     .catch(error=> {console.log(error, response)})
 })
 
-const searchInput = document.querySelector('[data-search]')
+//add event listener for song form
+songForm.addEventListener('submit',(event2)=>{
+    event2.preventDefault();
+    fetch('http://localhost:3000/Songs/', {
+        method:'POST',
+        headers:{
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+        },
+        body: JSON.stringify({
+           song: event2.target.song.value
+        })
+    }).then(response=> response.json())
+    .then(console.log(event2.target.song.value))
+    .catch(error=> {console.log(error, response)})
+})
+/*
+//attempt to bring spotify API into search bar for song entries
+
+//getting access key
+const clientID='8c2d32dac4cf40efacfd927a91ff87ab'
+const clientSEC= 'acd163f43f714768b6a2fb0f36b75bd7'
+const credentials = (`${clientID}:${clientSEC}`).toString('base64');
+
+const authOptions = {
+  url: 'https://accounts.spotify.com/api/token',
+  headers: {
+    'Authorization': 'Basic ' + (new Buffer.from(credentials))
+  },
+  form: {
+    grant_type: 'client_credentials'
+  },
+  json: true
+};
+
+request.post(authOptions, function(error, response, body) {
+  if (!error && response.statusCode === 200) {
+    const token = body.access_token;
+  }
+});
+
+const searchInput = document.querySelector('[song-search]')
+const songForm = document.getElementById('songForm')
 
 searchInput.addEventListener('input', (e)=>{
-    const value = e.target.value.toLowerCase();
+    const songEntry = e.target.value.toLowerCase();
+    const songMenu = document.createElement('div')
+    songMenu.setAttribute('id','songListOptions')
+
+fetch()
+    .then(song=>{
+        const shown = song.toLowerCase().includes(songEntry)
+        songMenu.append(shown)
+        /*shown.addEventListener('click',{
+            searchInput.textContent = */
+    
 
 
-
-})
-
-
-fetch('https://spotify23.p.rapidapi.com/search/',{
+    /*https://spotify23.p.rapidapi.com/search/',{
     params: {
-        q: '<REQUIRED>',
+        q: 'track:' + searchInput,
         type: 'multi',
         offset: '0',
         limit: '10',
@@ -92,7 +140,6 @@ fetch('https://spotify23.p.rapidapi.com/search/',{
       },
       headers: {
         'X-RapidAPI-Key': '49f8bd1a59msh2c6598263fd36abp10936ajsn12bc9b1d9b76',
-        'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
-      }
-    }).then(response= response.json())
-    .then(songs=> {console.log(songs)})
+        'X-RapidAPI-Host': 'spotify23.p.rapidapi.com',
+        'Authorization': 'Bearer ' + key
+      }*/

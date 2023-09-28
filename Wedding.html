@@ -22,17 +22,21 @@
       <div id="messages">
 
       </div>
-      <form autocomplete=off id="messageForm" style=" gap: 30px;">
+      <form id="messageForm" style=" gap: 30px;">
         <label style="gap: 10px; width: 140px; display: inline-block; justify-content: space-evenly;">
           your name <input type='text' name="name"  />
         </label>
         <label style="gap: 10px; width: 140px; display: inline-block; justify-content: space-evenly;">
           story or message <input type="text" name="message" />
         </label>
-        <label for='search' style="gap: 10px; width: 140px; display: inline-block; justify-content: space-evenly;">
-          song for dancing! <input type='search' name="song" data-search/>
+        <input id= "mButton" type="submit" value="send it" />
+      </form>
+
+      <form id="songForm">
+        <label style="gap: 10px; width: 140px; display: inline-block; justify-content: space-evenly;">
+          song for dancing! <input type='text' name="song" />
         </label>
-        <input id= "button" type="submit" value="send it" />
+        <input id= "sButton" type="submit" value="add it" />
       </form>
 
       <p id="songList">click <a href="songList.html">here</a> to see which songs have been added so far </p>
