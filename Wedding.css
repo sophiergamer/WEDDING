@@ -8,6 +8,27 @@ body {background-color: aliceblue;
 
 #top {text-align: center;
       }
+#menu {
+  color:black;
+  font-size: 17px;
+  font-family: 'Futura';
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: space-between;
+  display: flex;
+}
+#menu a{
+  color:#262626;
+  text-decoration: none;
+}
+
+#menu a:hover{
+  color:#8FBC8F;
+  text-decoration: none;
+
+}
+
 #middle {background-color: #8FBC8F;
         text-align: center;
      }
@@ -15,6 +36,7 @@ body {background-color: aliceblue;
         text-align: center; }
 
 #pageTitle {margin-top: 10px;
+          margin-bottom: 10px;
           font-family: 'baskerville';}
 
 #subTitle { color: #262626;
@@ -22,7 +44,8 @@ body {background-color: aliceblue;
     white-space: nowrap;   
     margin: 0 auto;   
     letter-spacing: .2rem;   
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     }
 #bottomTitle {
   font-family: 'baskerville';
@@ -35,7 +58,6 @@ body {background-color: aliceblue;
   padding-bottom: 20px;
 }
 .card{
-
   border-radius: 15px;
   text-align: center;
   width: 300px;
@@ -143,7 +165,9 @@ input {border: none;
   display: block;
   margin-left: 47%;
 }
-
+#link{
+  color:#8FBC8F
+}
 #songList{
   margin-left: 10px;
   font-family: 'baskerville';

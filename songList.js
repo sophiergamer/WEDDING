@@ -1,10 +1,35 @@
 const songList = document.getElementById('songList')
 
 function addSong(entry){
-    const item = document.createElement('li')
-   item.textContent = entry.song
-   songList.append(item)
-    }
+    const itemContainer = document.createElement('div')
+    const item = document.createElement('p')
+    const likes = document.createElement('span')
+    const likeButton = document.createElement('button')
+    let voteValue = entry.likes
+
+   item.textContent =entry.song.toUpperCase()
+   itemContainer.className = 'container'
+   likes.textContent= `likes: ${voteValue}`
+   likes.className = 'likes'
+   songList.append(itemContainer)
+   itemContainer.append(item, likeButton, likes)
+   item.className= 'song'
+   likeButton.className= 'likeButton'
+   likeButton.textContent = "I like this song too!"
+  
+    likeButton.addEventListener('click',(event1)=>{
+        likes.textContent = `likes: ${++voteValue}`
+        fetch('http://localhost:3000/Songs/'+ entry.id , {
+            method:'PATCH',
+            headers:{
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+            },
+            body: JSON.stringify({
+           likes: voteValue
+            })
+            }).then(response=> response.json())
+            .then()})}
 
 fetch('http://localhost:3000/Songs').then(response=>response.json())
     .then(songs=>songs.forEach(suggestion=>{addSong(suggestion)}))
@@ -19,9 +44,7 @@ function makeAlphabet(alphabet){
         console.log(songList)
     }
 }
-*/
 
-/*
 
 const letterSection = document.getElementsByTagName('dt')
 function addSong(entry){
@@ -32,4 +55,4 @@ function addSong(entry){
     if (firstLetter === letterSection.textContent){
           letterSection.append(item)
     }
-}*/
+    */

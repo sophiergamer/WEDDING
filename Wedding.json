@@ -24,15 +24,18 @@
   "Songs": [
     {
       "song": "hotel room service by pitbull",
-      "id": 1
+      "id": 1,
+      "likes": 2
     },
     {
       "song": "harry potter theme",
-      "id": 2
+      "id": 2,
+      "likes": 4
     },
     {
       "song": "more than a woman by the beegees",
-      "id": 3
+      "id": 3,
+      "likes": 2
     }
   ],
   "PhotoGallery": [

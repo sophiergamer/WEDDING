@@ -82,7 +82,8 @@ songForm.addEventListener('submit',(event2)=>{
             "Accept": "application/json"
         },
         body: JSON.stringify({
-           song: event2.target.song.value
+           song: event2.target.song.value,
+           likes: 0
         })
     }).then(response=> response.json())
     .then(console.log(event2.target.song.value))

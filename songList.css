@@ -1,3 +1,59 @@
 body{
-    background-color: darkorchid;
+    background-color: #FFF0F5;
+}
+#title{
+    font-family: "Futura";
+    text-align: center;
+}
+.song{
+    display:inline;
+    font-family: Arial;
+    padding: 3px;
+    margin: 11px 3px 11px ;
+    font-weight: bold;
+}
+.likeButton{
+    border: 1px solid #FF4500;
+    border-radius: 3px;
+    padding: 3px;
+    color: white;
+    background-color: #FF4500;
+    display: block ;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px;
+}
+.likes{
+    padding: 3px;
+    border: #8B008B;
+    border-radius: 3px;
+    background-color: #8B008B;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-flex;
+    margin: 3px;
+    font-size: small;
+}
+
+.container{
+    border: 1px #8B008B ;
+    border-radius: 10px;
+    border-style:solid;
+    background-color: #FFE4E1;
+    padding: 5px;
+    display:block;
+}
+.container + .container{
+    margin: 10px;
+}
+#bottom{
+    text-align: center;
+    background-color: #8B008B;
+    color: white;
+    font-family: "Futura"
+}
+#homeLink{
+    color: #FF4500;;
 }
